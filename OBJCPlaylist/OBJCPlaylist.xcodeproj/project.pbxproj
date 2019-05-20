@@ -8,24 +8,36 @@
 
 /* Begin PBXBuildFile section */
 		0C06C8CA2293099700F1CF64 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C06C8C92293099700F1CF64 /* AppDelegate.m */; };
-		0C06C8CD2293099700F1CF64 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C06C8CC2293099700F1CF64 /* ViewController.m */; };
 		0C06C8D02293099700F1CF64 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C06C8CE2293099700F1CF64 /* Main.storyboard */; };
 		0C06C8D22293099700F1CF64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C06C8D12293099700F1CF64 /* Assets.xcassets */; };
 		0C06C8D52293099700F1CF64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C06C8D32293099700F1CF64 /* LaunchScreen.storyboard */; };
 		0C06C8D82293099700F1CF64 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C06C8D72293099700F1CF64 /* main.m */; };
+		0C06C8E222930BCA00F1CF64 /* AJWSong.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C06C8E122930BCA00F1CF64 /* AJWSong.m */; };
+		0C06C8E622930C2B00F1CF64 /* AJWPlaylist.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C06C8E522930C2B00F1CF64 /* AJWPlaylist.m */; };
+		0C06C8E9229316DA00F1CF64 /* AJWPlaylistController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C06C8E8229316DA00F1CF64 /* AJWPlaylistController.m */; };
+		0C06C8ED2293229900F1CF64 /* AJWTableListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C06C8EC2293229900F1CF64 /* AJWTableListTableViewController.m */; };
+		0C06C8F122933AC500F1CF64 /* AJWTDetailableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C06C8F022933AC500F1CF64 /* AJWTDetailableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0C06C8C52293099700F1CF64 /* OBJCPlaylist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OBJCPlaylist.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C06C8C82293099700F1CF64 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0C06C8C92293099700F1CF64 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		0C06C8CB2293099700F1CF64 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		0C06C8CC2293099700F1CF64 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		0C06C8CF2293099700F1CF64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0C06C8D12293099700F1CF64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0C06C8D42293099700F1CF64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0C06C8D62293099700F1CF64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0C06C8D72293099700F1CF64 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0C06C8E022930BCA00F1CF64 /* AJWSong.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AJWSong.h; sourceTree = "<group>"; };
+		0C06C8E122930BCA00F1CF64 /* AJWSong.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AJWSong.m; sourceTree = "<group>"; };
+		0C06C8E422930C2B00F1CF64 /* AJWPlaylist.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AJWPlaylist.h; sourceTree = "<group>"; };
+		0C06C8E522930C2B00F1CF64 /* AJWPlaylist.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AJWPlaylist.m; sourceTree = "<group>"; };
+		0C06C8E7229316DA00F1CF64 /* AJWPlaylistController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AJWPlaylistController.h; sourceTree = "<group>"; };
+		0C06C8E8229316DA00F1CF64 /* AJWPlaylistController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AJWPlaylistController.m; sourceTree = "<group>"; };
+		0C06C8EB2293229900F1CF64 /* AJWTableListTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AJWTableListTableViewController.h; sourceTree = "<group>"; };
+		0C06C8EC2293229900F1CF64 /* AJWTableListTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AJWTableListTableViewController.m; sourceTree = "<group>"; };
+		0C06C8EF22933AC500F1CF64 /* AJWTDetailableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AJWTDetailableViewController.h; sourceTree = "<group>"; };
+		0C06C8F022933AC500F1CF64 /* AJWTDetailableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AJWTDetailableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +71,10 @@
 			isa = PBXGroup;
 			children = (
 				0C06C8DF229309BD00F1CF64 /* Resources */,
-				0C06C8CB2293099700F1CF64 /* ViewController.h */,
-				0C06C8CC2293099700F1CF64 /* ViewController.m */,
 				0C06C8DE229309B000F1CF64 /* StoryBoards */,
-				0C06C8D72293099700F1CF64 /* main.m */,
+				0C06C8E322930BD500F1CF64 /* Models */,
+				0C06C8EA229316E100F1CF64 /* ModelControllers */,
+				0C06C8EE229322A000F1CF64 /* ViewControllers */,
 			);
 			path = OBJCPlaylist;
 			sourceTree = "<group>";
@@ -79,12 +91,44 @@
 		0C06C8DF229309BD00F1CF64 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				0C06C8D72293099700F1CF64 /* main.m */,
 				0C06C8D62293099700F1CF64 /* Info.plist */,
 				0C06C8D12293099700F1CF64 /* Assets.xcassets */,
 				0C06C8C82293099700F1CF64 /* AppDelegate.h */,
 				0C06C8C92293099700F1CF64 /* AppDelegate.m */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		0C06C8E322930BD500F1CF64 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0C06C8E022930BCA00F1CF64 /* AJWSong.h */,
+				0C06C8E122930BCA00F1CF64 /* AJWSong.m */,
+				0C06C8E422930C2B00F1CF64 /* AJWPlaylist.h */,
+				0C06C8E522930C2B00F1CF64 /* AJWPlaylist.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0C06C8EA229316E100F1CF64 /* ModelControllers */ = {
+			isa = PBXGroup;
+			children = (
+				0C06C8E7229316DA00F1CF64 /* AJWPlaylistController.h */,
+				0C06C8E8229316DA00F1CF64 /* AJWPlaylistController.m */,
+			);
+			path = ModelControllers;
+			sourceTree = "<group>";
+		};
+		0C06C8EE229322A000F1CF64 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				0C06C8EF22933AC500F1CF64 /* AJWTDetailableViewController.h */,
+				0C06C8F022933AC500F1CF64 /* AJWTDetailableViewController.m */,
+				0C06C8EB2293229900F1CF64 /* AJWTableListTableViewController.h */,
+				0C06C8EC2293229900F1CF64 /* AJWTableListTableViewController.m */,
+			);
+			name = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -113,6 +157,7 @@
 		0C06C8BD2293099700F1CF64 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = AJW;
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = "Austin West";
 				TargetAttributes = {
@@ -157,9 +202,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C06C8CD2293099700F1CF64 /* ViewController.m in Sources */,
+				0C06C8E9229316DA00F1CF64 /* AJWPlaylistController.m in Sources */,
+				0C06C8E622930C2B00F1CF64 /* AJWPlaylist.m in Sources */,
 				0C06C8D82293099700F1CF64 /* main.m in Sources */,
+				0C06C8ED2293229900F1CF64 /* AJWTableListTableViewController.m in Sources */,
+				0C06C8E222930BCA00F1CF64 /* AJWSong.m in Sources */,
 				0C06C8CA2293099700F1CF64 /* AppDelegate.m in Sources */,
+				0C06C8F122933AC500F1CF64 /* AJWTDetailableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,7 +351,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = OBJCPlaylist/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/OBJCPlaylist/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -318,7 +367,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = OBJCPlaylist/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/OBJCPlaylist/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  AJWTableListTableViewController.h
 //  OBJCPlaylist
 //
 //  Created by Austin West on 5/20/19.
@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+NS_ASSUME_NONNULL_BEGIN
 
+@interface AJWTableListTableViewController : UITableViewController
 
 @end
 
+NS_ASSUME_NONNULL_END
