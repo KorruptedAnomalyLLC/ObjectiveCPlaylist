@@ -114,8 +114,6 @@
 		0C06C8EA229316E100F1CF64 /* ModelControllers */ = {
 			isa = PBXGroup;
 			children = (
-				0C06C8EF22933AC500F1CF64 /* AJWTDetailableViewController.h */,
-				0C06C8F022933AC500F1CF64 /* AJWTDetailableViewController.m */,
 				0C06C8E7229316DA00F1CF64 /* AJWPlaylistController.h */,
 				0C06C8E8229316DA00F1CF64 /* AJWPlaylistController.m */,
 			);
@@ -125,6 +123,8 @@
 		0C06C8EE229322A000F1CF64 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				0C06C8EF22933AC500F1CF64 /* AJWTDetailableViewController.h */,
+				0C06C8F022933AC500F1CF64 /* AJWTDetailableViewController.m */,
 				0C06C8EB2293229900F1CF64 /* AJWTableListTableViewController.h */,
 				0C06C8EC2293229900F1CF64 /* AJWTableListTableViewController.m */,
 			);

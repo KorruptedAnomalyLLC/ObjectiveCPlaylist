@@ -8,6 +8,7 @@
 
 #import "AJWTableListTableViewController.h"
 #import "AJWPlaylistController.h"
+#import "AJWTDetailableViewController.h"
 
 @interface AJWTableListTableViewController ()
 
@@ -16,6 +17,12 @@
 @end
 
 @implementation AJWTableListTableViewController
+
+-(void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+    [self.tableView reloadData];
+}
+
 
 - (IBAction)addButtonTapped:(UIBarButtonItem *)sender {
 [[AJWPlaylistController sharedController] createPlaylistWithName:self.nameTextField.text];
@@ -59,17 +66,20 @@
         // Delete the row from the data source
         [tableView deleteRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationFade];
     } else if (editingStyle == UITableViewCellEditingStyleInsert) {
-        // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
+        
     }
 }
-
 
 #pragma mark - Navigation
 
 // In a storyboard-based application, you will often want to do a little preparation before navigation
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+    if ([[segue identifier] isEqualToString:@"toDetailVC"]) {
+        NSIndexPath *indexPath = self.tableView.indexPathForSelectedRow;
+        AJWTDetailableViewController *destinationVC = [segue destinationViewController];
+        AJWPlaylist *playlist = [[[AJWPlaylistController sharedController] playlists] objectAtIndex:indexPath.row];
+        destinationVC.playlist = playlist;
+    }
 }
 
 

@@ -61,7 +61,7 @@
                                     </subviews>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <segue destination="aAd-Eg-H3W" kind="show" identifier="editPlaylistSegue" id="cEE-PG-3z1"/>
+                                    <segue destination="aAd-Eg-H3W" kind="show" identifier="toDetailVC" id="cEE-PG-3z1"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -100,13 +100,13 @@
                                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="5N1-qK-0AI">
                                     <rect key="frame" x="4" y="4" width="406" height="92"/>
                                     <subviews>
-                                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="giQ-jA-kYY">
+                                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Artist" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="giQ-jA-kYY">
                                             <rect key="frame" x="0.0" y="0.0" width="406" height="44"/>
                                             <nil key="textColor"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                             <textInputTraits key="textInputTraits"/>
                                         </textField>
-                                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="6xD-sI-XAG">
+                                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Song Title" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="6xD-sI-XAG">
                                             <rect key="frame" x="0.0" y="48" width="406" height="44"/>
                                             <nil key="textColor"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -115,7 +115,7 @@
                                     </subviews>
                                 </stackView>
                             </subviews>
-                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <color key="backgroundColor" red="0.094605518590000007" green="0.81193329020000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             <constraints>
                                 <constraint firstItem="5N1-qK-0AI" firstAttribute="leading" secondItem="8Fc-16-4Mw" secondAttribute="leading" constant="4" id="M6W-pQ-Fdz"/>
                                 <constraint firstItem="5N1-qK-0AI" firstAttribute="top" secondItem="8Fc-16-4Mw" secondAttribute="top" constant="4" id="Mmy-5g-w1p"/>
