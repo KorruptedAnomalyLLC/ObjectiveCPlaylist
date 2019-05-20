@@ -12,6 +12,8 @@
 		0C06C8D22293099700F1CF64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C06C8D12293099700F1CF64 /* Assets.xcassets */; };
 		0C06C8D52293099700F1CF64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C06C8D32293099700F1CF64 /* LaunchScreen.storyboard */; };
 		0C06C8D82293099700F1CF64 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C06C8D72293099700F1CF64 /* main.m */; };
+		0C06C8E222930BCA00F1CF64 /* AJWSong.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C06C8E122930BCA00F1CF64 /* AJWSong.m */; };
+		0C06C8E622930C2B00F1CF64 /* AJWPlaylist.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C06C8E522930C2B00F1CF64 /* AJWPlaylist.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,10 @@
 		0C06C8D42293099700F1CF64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0C06C8D62293099700F1CF64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0C06C8D72293099700F1CF64 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0C06C8E022930BCA00F1CF64 /* AJWSong.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AJWSong.h; sourceTree = "<group>"; };
+		0C06C8E122930BCA00F1CF64 /* AJWSong.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AJWSong.m; sourceTree = "<group>"; };
+		0C06C8E422930C2B00F1CF64 /* AJWPlaylist.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AJWPlaylist.h; sourceTree = "<group>"; };
+		0C06C8E522930C2B00F1CF64 /* AJWPlaylist.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AJWPlaylist.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +63,7 @@
 			children = (
 				0C06C8DF229309BD00F1CF64 /* Resources */,
 				0C06C8DE229309B000F1CF64 /* StoryBoards */,
+				0C06C8E322930BD500F1CF64 /* Models */,
 			);
 			path = OBJCPlaylist;
 			sourceTree = "<group>";
@@ -80,6 +87,17 @@
 				0C06C8C92293099700F1CF64 /* AppDelegate.m */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		0C06C8E322930BD500F1CF64 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0C06C8E022930BCA00F1CF64 /* AJWSong.h */,
+				0C06C8E122930BCA00F1CF64 /* AJWSong.m */,
+				0C06C8E422930C2B00F1CF64 /* AJWPlaylist.h */,
+				0C06C8E522930C2B00F1CF64 /* AJWPlaylist.m */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -108,6 +126,7 @@
 		0C06C8BD2293099700F1CF64 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = AJW;
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = "Austin West";
 				TargetAttributes = {
@@ -152,7 +171,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C06C8E622930C2B00F1CF64 /* AJWPlaylist.m in Sources */,
 				0C06C8D82293099700F1CF64 /* main.m in Sources */,
+				0C06C8E222930BCA00F1CF64 /* AJWSong.m in Sources */,
 				0C06C8CA2293099700F1CF64 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
