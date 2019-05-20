@@ -8,6 +8,15 @@
 
 #import "AJWSong.h"
 
-@implementation AJWSong
 
+@implementation AJWSong
+- (instancetype)initWithTitle:(NSString *)title artist:(NSString *)artist
+{
+    self = [super init];
+    if (self) {
+        _title = title;
+        _artist = artist;
+    }
+    return self;
+}
 @end
