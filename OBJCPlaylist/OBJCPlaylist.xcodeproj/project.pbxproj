@@ -14,6 +14,7 @@
 		0C06C8D82293099700F1CF64 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C06C8D72293099700F1CF64 /* main.m */; };
 		0C06C8E222930BCA00F1CF64 /* AJWSong.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C06C8E122930BCA00F1CF64 /* AJWSong.m */; };
 		0C06C8E622930C2B00F1CF64 /* AJWPlaylist.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C06C8E522930C2B00F1CF64 /* AJWPlaylist.m */; };
+		0C06C8E9229316DA00F1CF64 /* AJWPlaylistController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C06C8E8229316DA00F1CF64 /* AJWPlaylistController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		0C06C8E122930BCA00F1CF64 /* AJWSong.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AJWSong.m; sourceTree = "<group>"; };
 		0C06C8E422930C2B00F1CF64 /* AJWPlaylist.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AJWPlaylist.h; sourceTree = "<group>"; };
 		0C06C8E522930C2B00F1CF64 /* AJWPlaylist.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AJWPlaylist.m; sourceTree = "<group>"; };
+		0C06C8E7229316DA00F1CF64 /* AJWPlaylistController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AJWPlaylistController.h; sourceTree = "<group>"; };
+		0C06C8E8229316DA00F1CF64 /* AJWPlaylistController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AJWPlaylistController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +67,7 @@
 				0C06C8DF229309BD00F1CF64 /* Resources */,
 				0C06C8DE229309B000F1CF64 /* StoryBoards */,
 				0C06C8E322930BD500F1CF64 /* Models */,
+				0C06C8EA229316E100F1CF64 /* ModelControllers */,
 			);
 			path = OBJCPlaylist;
 			sourceTree = "<group>";
@@ -98,6 +102,15 @@
 				0C06C8E522930C2B00F1CF64 /* AJWPlaylist.m */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		0C06C8EA229316E100F1CF64 /* ModelControllers */ = {
+			isa = PBXGroup;
+			children = (
+				0C06C8E7229316DA00F1CF64 /* AJWPlaylistController.h */,
+				0C06C8E8229316DA00F1CF64 /* AJWPlaylistController.m */,
+			);
+			path = ModelControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -171,6 +184,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C06C8E9229316DA00F1CF64 /* AJWPlaylistController.m in Sources */,
 				0C06C8E622930C2B00F1CF64 /* AJWPlaylist.m in Sources */,
 				0C06C8D82293099700F1CF64 /* main.m in Sources */,
 				0C06C8E222930BCA00F1CF64 /* AJWSong.m in Sources */,
