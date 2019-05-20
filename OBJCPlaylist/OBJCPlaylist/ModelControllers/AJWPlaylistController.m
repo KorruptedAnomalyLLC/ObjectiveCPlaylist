@@ -36,6 +36,10 @@
     return self;
 }
 
+- (NSArray *)playlists {
+    return self.internalPlaylists;
+}
+
 - (void)createPlaylistWithName:(NSString *)name
 {
     AJWPlaylist *newPlaylist = [[AJWPlaylist alloc] initWithName:name song:[NSMutableArray new]];

@@ -85,10 +85,10 @@
             </objects>
             <point key="canvasLocation" x="-273" y="81"/>
         </scene>
-        <!--Table View Controller-->
+        <!--Title-->
         <scene sceneID="hUA-xy-veF">
             <objects>
-                <tableViewController id="aAd-Eg-H3W" sceneMemberID="viewController">
+                <tableViewController id="aAd-Eg-H3W" customClass="AJWTDetailableViewController" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="DX7-dc-80E">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -154,6 +154,17 @@
                             <outlet property="delegate" destination="aAd-Eg-H3W" id="Zm9-ju-bGD"/>
                         </connections>
                     </tableView>
+                    <navigationItem key="navigationItem" title="Title" id="CM0-a1-Lc0">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="1Cz-ji-zl2">
+                            <connections>
+                                <action selector="addButtonTapped:" destination="aAd-Eg-H3W" id="xxE-ql-UoN"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="artistTextField" destination="giQ-jA-kYY" id="rGO-Az-uye"/>
+                        <outlet property="titleTextField" destination="6xD-sI-XAG" id="1js-iP-xlz"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ix6-aP-fzj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
