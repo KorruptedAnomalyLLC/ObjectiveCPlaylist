@@ -15,6 +15,7 @@
 		0C06C8E222930BCA00F1CF64 /* AJWSong.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C06C8E122930BCA00F1CF64 /* AJWSong.m */; };
 		0C06C8E622930C2B00F1CF64 /* AJWPlaylist.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C06C8E522930C2B00F1CF64 /* AJWPlaylist.m */; };
 		0C06C8E9229316DA00F1CF64 /* AJWPlaylistController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C06C8E8229316DA00F1CF64 /* AJWPlaylistController.m */; };
+		0C06C8ED2293229900F1CF64 /* AJWTableListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C06C8EC2293229900F1CF64 /* AJWTableListTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,8 @@
 		0C06C8E522930C2B00F1CF64 /* AJWPlaylist.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AJWPlaylist.m; sourceTree = "<group>"; };
 		0C06C8E7229316DA00F1CF64 /* AJWPlaylistController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AJWPlaylistController.h; sourceTree = "<group>"; };
 		0C06C8E8229316DA00F1CF64 /* AJWPlaylistController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AJWPlaylistController.m; sourceTree = "<group>"; };
+		0C06C8EB2293229900F1CF64 /* AJWTableListTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AJWTableListTableViewController.h; sourceTree = "<group>"; };
+		0C06C8EC2293229900F1CF64 /* AJWTableListTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AJWTableListTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +71,7 @@
 				0C06C8DE229309B000F1CF64 /* StoryBoards */,
 				0C06C8E322930BD500F1CF64 /* Models */,
 				0C06C8EA229316E100F1CF64 /* ModelControllers */,
+				0C06C8EE229322A000F1CF64 /* ViewControllers */,
 			);
 			path = OBJCPlaylist;
 			sourceTree = "<group>";
@@ -111,6 +115,15 @@
 				0C06C8E8229316DA00F1CF64 /* AJWPlaylistController.m */,
 			);
 			path = ModelControllers;
+			sourceTree = "<group>";
+		};
+		0C06C8EE229322A000F1CF64 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				0C06C8EB2293229900F1CF64 /* AJWTableListTableViewController.h */,
+				0C06C8EC2293229900F1CF64 /* AJWTableListTableViewController.m */,
+			);
+			name = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -187,6 +200,7 @@
 				0C06C8E9229316DA00F1CF64 /* AJWPlaylistController.m in Sources */,
 				0C06C8E622930C2B00F1CF64 /* AJWPlaylist.m in Sources */,
 				0C06C8D82293099700F1CF64 /* main.m in Sources */,
+				0C06C8ED2293229900F1CF64 /* AJWTableListTableViewController.m in Sources */,
 				0C06C8E222930BCA00F1CF64 /* AJWSong.m in Sources */,
 				0C06C8CA2293099700F1CF64 /* AppDelegate.m in Sources */,
 			);

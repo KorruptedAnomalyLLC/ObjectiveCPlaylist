@@ -8,6 +8,7 @@
 
 #import "AJWPlaylistController.h"
 
+
 @interface AJWPlaylistController()
 
 @property (nonatomic, strong, readwrite) NSMutableArray* internalPlaylists;
@@ -37,8 +38,7 @@
 
 - (void)createPlaylistWithName:(NSString *)name
 {
-    AJWPlaylist *newPlaylist = [[AJWPlaylist alloc] initWithName:name
-                                                           songs: [NSMutableArray new]];
+    AJWPlaylist *newPlaylist = [[AJWPlaylist alloc] initWithName:name song:[NSMutableArray new]];
     [self.internalPlaylists addObject:newPlaylist];
 }
 
